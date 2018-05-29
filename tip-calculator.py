@@ -7,4 +7,4 @@ total = cost_of_food_input + cost_of_food_input * tip_input
 
 print(total)
 
-print(Hope you have a Good One!)
+print("Hope you have a Good One!")
