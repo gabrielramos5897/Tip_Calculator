@@ -45,13 +45,13 @@ else:
     print("""You either did not pick a city or placed an unkown character.
 You were assigned the default Tax Rate of 7.25%.""")
 
-food_w_tax = cost_of_food + sales_tax
-
 if cost_of_food <= 10:
     tip_input = 0
 else:
     tip_input = int(float(input("Tip Percentage: ")))
 
+
+food_w_tax = cost_of_food + sales_tax
 
 tip_conversion = tip_input / 100
 tip = cost_of_food * tip_conversion
