@@ -1,6 +1,7 @@
-#Basic Tip calculator
+# This is a tip calculator
 print("Tip Calculator")
-mylist=["new_york", "los_angeles", "houston", "austin", "dallas", "fort_worth", "portland", "denver", "salt lake"]
+mylist = ["new_york", "los_angeles", "houston", "austin",
+          "dallas", "fort_worth", "portland", "denver", "salt lake"]
 city_input = int(input("""
      0 New York City
      1 Los Angeles
@@ -60,5 +61,5 @@ new_total = round(total, 2)
 new_sales_tax = round(sales_tax, 2)
 
 print("Your Tip comes out to $", tip_new)
-print("Sales Tax:",new_sales_tax)
+print("Sales Tax:", new_sales_tax)
 print("Your total is $", new_total)
