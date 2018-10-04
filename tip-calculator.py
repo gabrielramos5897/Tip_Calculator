@@ -1,4 +1,4 @@
-#This is a tip calculator
+#Basic Tip calculator
 print("Tip Calculator")
 mylist=["new_york", "los_angeles", "houston", "austin", "dallas", "fort_worth", "portland", "denver", "salt lake"]
 city_input = int(input("""
